@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pizza-Maker</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <div id="intro" class="container splash">
+        <h1>Pizza Maker</h1>
+        <button id="play">play</button>
+    </div>
+
+    <div id="game" class="container hidden ">
+      <canvas id="pizza" width="800" height="600"></canvas>
+      <button id="start">start</button>
+      <button id="gameOver-button">go gameover</button>
+      <button id="win-button">go win</button>
+    </div>
+    <div id="win" class="hidden">You Win</div>
+    <div id="gameover" class="hidden">Game Over</div>
+    <script src="/js/pizza.js"></script>
+    <script src="/js/chef.js"></script>
+    <script src="/js/shoot.js"></script>
+    <script src="/js/game.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
